@@ -6,6 +6,7 @@
                 <em class="fas fa-shopping-basket"></em>
             </a>
         </div>
+        <!--badge itemtotalaccount-->
         <span v-if="cart.length > 0" class="badge ms-2">{{ itemTotalAmount }}</span>
 
         <div id="panier_div" v-if="cart.length > 0">
